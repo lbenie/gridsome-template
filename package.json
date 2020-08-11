@@ -1,0 +1,31 @@
+{
+  "name": "template",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
+  },
+  "dependencies": {
+    "@gridsome/plugin-google-analytics": "^0.1.1",
+    "@gridsome/plugin-sitemap": "^0.4.0",
+    "@gridsome/source-contentful": "^0.5.3",
+    "gridsome": "^0.7.0",
+    "gridsome-plugin-robots-txt": "^1.0.2",
+    "snyk": "^1.373.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-gridsome": "^1.5.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-vue": "^6.2.2",
+    "prettier": "^2.0.5",
+    "prettier-eslint": "^11.0.0",
+    "stylus": "^0.54.8",
+    "stylus-loader": "^3.0.2"
+  },
+  "snyk": true
+}
