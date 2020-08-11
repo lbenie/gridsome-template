@@ -6,7 +6,7 @@ module.exports = {
     'prettier/vue',
     'plugin:gridsome/recommended',
   ],
-  plugins: ['prettier', 'gridsome'],
+  plugins: ['prettier', 'gridsome', 'vue'],
   rules: {
     'prettier/prettier': ['error'],
   },
