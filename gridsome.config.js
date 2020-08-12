@@ -33,5 +33,8 @@ module.exports = {
         typeName: 'Contentful',
       },
     },
+    {
+      use: 'gridsome-plugin-tailwindcss',
+    },
   ],
 }

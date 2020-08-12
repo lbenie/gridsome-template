@@ -15,6 +15,7 @@
     "@gridsome/source-contentful": "^0.5.3",
     "gridsome": "^0.7.0",
     "gridsome-plugin-robots-txt": "^1.0.2",
+    "gridsome-plugin-tailwindcss": "^3.0.1",
     "snyk": "^1.373.0"
   },
   "devDependencies": {
