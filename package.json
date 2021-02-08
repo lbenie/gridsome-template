@@ -7,29 +7,36 @@
     "explore": "gridsome explore",
     "snyk-protect": "snyk protect",
     "prepare": "yarn run snyk-protect",
-    "lint:fix": "eslint --fix"
+    "lint:fix": "eslint --fix",
+    "postinstall": "is-ci || husky install",
+    "prepublishOnly": "pinst --disable",
+    "postpublish": "pinst --enable"
   },
   "dependencies": {
-    "@gridsome/plugin-google-analytics": "^0.1.1",
+    "@gridsome/plugin-google-analytics": "^0.1.2",
     "@gridsome/plugin-sitemap": "^0.4.0",
-    "@gridsome/source-contentful": "^0.5.3",
-    "gridsome": "^0.7.0",
+    "@gridsome/source-contentful": "^0.6.0",
+    "gridsome": "^0.7.23",
     "gridsome-plugin-robots-txt": "^1.0.2",
-    "gridsome-plugin-tailwindcss": "^3.0.1",
-    "snyk": "^1.373.0"
+    "gridsome-plugin-tailwindcss": "^4.1.1",
+    "snyk": "^1.447.0"
   },
   "devDependencies": {
-    "eslint": "^7.6.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-gridsome": "^1.5.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-vue": "^6.2.2",
-    "husky": "^4.2.5",
-    "lint-staged": "^10.2.11",
-    "prettier": "^2.0.5",
-    "prettier-eslint": "^11.0.0",
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "eslint": "^7.19.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-gridsome": "^1.6.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^7.5.0",
+    "husky": "^5.0.9",
+    "is-ci": "^2.0.0",
+    "lint-staged": "^10.5.4",
+    "pinst": "^2.1.4",
+    "prettier": "^2.2.1",
+    "prettier-eslint": "^12.0.0",
     "stylus": "^0.54.8",
-    "stylus-loader": "^3.0.2"
+    "stylus-loader": "^5.0.0"
   },
   "snyk": true
 }
