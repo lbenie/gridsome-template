@@ -19,7 +19,7 @@
     "gridsome": "0.7.23",
     "gridsome-plugin-robots-txt": "1.0.2",
     "gridsome-plugin-tailwindcss": "4.1.1",
-    "snyk": "1.447.0"
+    "snyk": "1.618.0"
   },
   "devDependencies": {
     "@commitlint/cli": "11.0.0",
