@@ -33,7 +33,7 @@
     "is-ci": "3.0.0",
     "lint-staged": "11.1.2",
     "pinst": "2.1.6",
-    "prettier": "2.3.2",
+    "prettier": "2.4.1",
     "prettier-eslint": "13.0.0",
     "stylus": "0.54.8",
     "stylus-loader": "6.1.0"
